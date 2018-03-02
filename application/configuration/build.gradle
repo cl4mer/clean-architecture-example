@@ -1,6 +1,5 @@
 description = "Wires the application together."
 
-// configure spring boot with gradle: start
 buildscript {
     repositories {
         mavenCentral()
@@ -10,7 +9,6 @@ buildscript {
     }
 }
 apply plugin: 'spring-boot'
-// configure spring boot with gradle: end
 
 // generate the main application jar in the "application" folder, to make it easier to find
 jar {
